@@ -13,9 +13,9 @@
 </head>
 <body>
     <?php
-    include_once 'pages/header.php';
-    include_once 'pages/main.php';
-    include_once 'pages/footer.php';
+    include_once 'pages/header.php'; // Вставка шапки
+    include_once 'pages/main.php';  // Вставка основного блока
+    include_once 'pages/footer.php'; // Вставка футера
     ?>
 </body>
 </html>
