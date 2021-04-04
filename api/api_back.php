@@ -11,6 +11,7 @@ if ($link->connect_error) {
     die("Connection failed: " . $link->connect_error);
 }
 
+mysqli_set_charset($link, "utf8");
 
 $query = "SELECT * FROM child_group";
 $result = mysqli_query($link, $query);
