@@ -9,10 +9,13 @@
         </div> -->
 
         <table id='table'>  
+            
+            <th colspan="4">Отряды</th>
+            
             <tr>
-                <td>id</td>
-                <td>Num</td>
-                <td>Name</td>
+                <td>№</td>
+                <td>Номер отряда</td>
+                <td>Название отряда</td>
             </tr>
         </table>
     <style>
@@ -20,14 +23,35 @@
             background-color: white;
         }
 
-        table, td, tr{
-            border: solid 1px grey;
-            border-spacing: 0px;
-        }
-
-        td{
-            padding: .1em 1em;
-        }
+     table{
+      
+        width: 30%;
+        padding: 10px 15px;
+     }
+     tr:nth-child(odd) {
+    background-color:rgba(0, 255, 0, .2);
+     }
+     tr:nth-child(even) {
+    background-color:rgba(255, 255, 0, .2);
+     }
+     tr:hover td {
+    background: rgba(51, 51, 153, .1);
+     }
+     td{
+        text-align: center;
+        font-family: sans-serif;
+        padding: 10px 15px;
+     }
+     th {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+     }
+     tr:last-child td:last-child {
+border-radius: 0 0 15px 0;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 15px;
+}
     </style>
 </main>
 <script type='text/javascript'>

@@ -25,5 +25,8 @@
  bottom: 0;
  left: 0;
  z-index: -1;
-}
+ background: white; 
+ font-family: sans-serif;
+ 
+ }
 </style>
